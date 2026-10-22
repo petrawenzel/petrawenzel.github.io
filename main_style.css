@@ -1,0 +1,89 @@
+/* This is the style file for Petra Wenzel's website */
+
+@font-face {
+	font-family: Jost;
+	src: url(./fonts/jost-regular.woff);
+}
+
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+
+a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: lime;
+}
+
+a:active {
+	color: blue
+	text-decoration: none;
+}
+
+hr {
+	border-color: #000000;
+	height: 2px;
+	border: 0;
+	border-top: 2px solid #000000;
+}
+
+html {
+	padding: 36px;
+}
+
+body {
+	margin-top: 36px;
+	margin-bottom: 36px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 800px;
+	max-width: 800px;
+	background-color: pink;
+	line-height: 1.5;
+}
+
+p {
+	font-size: 14px;
+	font-family: Jost, Lucida Grande, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+	font-family: Jost;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 36px;
+	font-family: Jost;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: Jost;
+	font-weight: bold;
+}
+
+/* Use this class to center things */
+.center {
+	text-align: center;
+}
+
+/* This class is for the menu: about, projects, etc. */
+.menu {
+	text-align: center;
+	font-size: 28px;
+}
+
+/* spaces between menu items */
+menutab {
+	display: inline-block;
+	margin-left: 48px;
+}
+
